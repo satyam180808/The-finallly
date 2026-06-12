@@ -164,7 +164,8 @@ body{
     font-size: 40px;
     gap:20px;
     animation: pulse 4s ease 0.3s;
-    padding-left:20px
+    padding-left:20px;
+    z-index:10;
 }
 
 .social-links i{
@@ -322,6 +323,7 @@ footer{
         display: flex;
         gap:10px;
         justify-content: center;
+        z-index:9;
     }
 
     .cancel a{
